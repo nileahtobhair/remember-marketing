@@ -1,6 +1,6 @@
-# Remember FE
+# Remember Marketing
 
-Bootstrapped with create-react-app. React front-end for the remember app, an app to store and get notified of all your important dates.
+Static site for remeber app marketing page.
 
 ## Scripts
 
