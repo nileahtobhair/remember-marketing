@@ -1,0 +1,86 @@
+.interest--container {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.interest--heading {
+  max-width: 655px;
+  margin: 20px 0;
+  font-size: 85px;
+  line-height: 85px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Fraunces", serif;
+}
+
+.interest--subtext {
+  max-width: 525px;
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  font-family: "Fanwood Text", serif;
+}
+
+.highlight {
+  background: linear-gradient(
+    to right,
+    #8068f6,
+    #fff,
+    #8068f6,
+    #735bf2,
+    #8068f6,
+    #fff
+  );
+  animation: logoAnimation 5s ease infinite;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+}
+
+button {
+  color: white;
+  background: #735bf2;
+  border: #735bf2;
+  border-radius: 8px;
+  padding: 11px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 525px;
+  flex-direction: column;
+}
+
+.form--input {
+  display: flex;
+  flex-direction: column;
+  font-family: "Fraunces", serif;
+  align-items: flex-start;
+  margin-bottom: 1px;
+}
+
+.form--input input {
+  padding: 10px 5px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #f0effd;
+  width: 100%;
+  display: flex;
+  margin: 10px 0 25px 0;
+  font-family: "Fraunces", serif;
+}
+
+form button {
+  width: 175px;
+  align-self: flex-end;
+}
