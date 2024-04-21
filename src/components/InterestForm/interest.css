@@ -22,7 +22,7 @@
   max-width: 525px;
   font-size: 22px;
   text-align: center;
-  margin: 20px 0 30px 0;
+  margin: 10px 0 40px 0;
   font-family: "Fanwood Text", serif;
 }
 
@@ -51,6 +51,7 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Fraunces", serif;
+  cursor: pointer;
 }
 
 form {
