@@ -14,7 +14,7 @@ function Interest() {
       </div>
       <p className="interest--subtext">
         {
-          "Remember remember is coming soon! Save and collect the dates most important to you and your loved ones. Setup date reminders so you’ll never miss a special day again."
+          "Remember remember is coming soon! Submit your email below to get notified when we go live. Save and collect the dates most important to you and your loved ones. Setup date reminders so you’ll never miss a special day again."
         }
       </p>
       <form name="remember-early" method="POST" data-netlify="true">
