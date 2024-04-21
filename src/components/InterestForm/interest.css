@@ -42,7 +42,7 @@
   background-size: 500% auto;
 }
 
-button {
+.interest--container button {
   color: white;
   background: #735bf2;
   border: #735bf2;
@@ -54,7 +54,7 @@ button {
   cursor: pointer;
 }
 
-form {
+.interest--container form {
   display: flex;
   justify-content: space-between;
   width: 525px;
@@ -81,7 +81,27 @@ form {
   font-family: "Fraunces", serif;
 }
 
-form button {
+.interest--container form button {
   width: 175px;
   align-self: flex-end;
+}
+
+@media only screen and (max-width: 499px) {
+  .interest--container {
+    width: 90%;
+  }
+  .interest--heading {
+    max-width: 90%;
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .interest--subtext {
+    max-width: 90%;
+    font-size: 18px;
+  }
+
+  .interest--container form {
+    width: 90%;
+  }
 }
