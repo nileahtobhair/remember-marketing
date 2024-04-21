@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Features from "./components/Features";
 import Interest from "./components/InterestForm";
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Interest />
       <Features />
+      <Footer />
     </div>
   );
 }
