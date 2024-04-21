@@ -20,40 +20,29 @@
   text-align: center;
 }
 
-.main--container {
-  display: flex;
-}
-
-.events--list--container h4 {
-  font-size: 20px;
-  margin-bottom: 45px;
-}
-
-.events--list--container button {
-  margin-top: 1rem;
-}
-
-.events--list--container button {
-  background-color: #735bf2;
-  border-radius: 4px;
-  color: #fff;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.event-button-container {
-  display: flex;
-  justify-content: space-between;
-  width: calc(100% - 4px);
-}
-
 p,
+ul,
+li,
 h1,
+h2,
+h3,
 h4,
 h6 {
   margin-block-start: 0em;
   margin-block-end: 0em;
+  padding-inline-start: 0em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fraunces", serif;
+}
+
+ul {
+  list-style: none;
 }
 
 @keyframes logoAnimation {

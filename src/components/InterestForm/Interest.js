@@ -6,11 +6,11 @@ function Interest() {
   return (
     <section className="interest--container">
       <div className="interest--heading">
-        <p>
+        <h1>
           Always
           <span className="highlight">{" remember \n"}</span>
           your most important dates
-        </p>
+        </h1>
       </div>
       <div className="interest--subtext">
         <p>
