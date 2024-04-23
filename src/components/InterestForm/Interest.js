@@ -1,8 +1,24 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./interest.css";
 
 function Interest({ success = false }) {
+  const navigate = useNavigate();
+  const handleSubmission = e => {
+    e.preventDefault();
+    const formElement = document.getElementById("remember-early");
+    const formData = new FormData(formElement);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
+    })
+      .then(() => navigate("/success"))
+      .catch(error => {
+        alert(error);
+      });
+  };
   return (
     <section className="interest--container">
       <div className="interest--heading">
@@ -35,9 +51,11 @@ function Interest({ success = false }) {
       ) : (
         <form
           name="remember-early"
+          id="remember-early"
           method="POST"
           data-netlify="true"
           action="/success"
+          onSubmit={handleSubmission}
         >
           <input type="hidden" name="form-name" value="remember-early" />
           <p className="form--input">

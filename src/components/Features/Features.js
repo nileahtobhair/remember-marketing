@@ -40,7 +40,7 @@ function Features() {
           <div className="single--feature">
             <h4>Share your dates</h4>
             <p>
-              Sibling always forgets your dads birthday? Share it with them.
+              Sibling always forgets your dad's birthday? Share it with them.
             </p>
           </div>
         </li>
