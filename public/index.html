@@ -50,17 +50,12 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <form
-      name="remember-early"
-      netlify
-      data-netlify="true"
-      netlify-honeypot="bot-field"
-      hidden
-    >
+    <!-- Hidden form to enable netlify form submissions -->
+    <form name="remember-early" netlify netlify-honeypot="bot-field" hidden>
       <p className="form--input">
         <label>Your Email </label>
         <input required type="email" name="email" />
-        <input type="hidden" name="remember-early" value="contact" />
+        <!-- <input type="hidden" name="remember-early" value="contact" /> -->
       </p>
       <p>
         <button type="submit">Get early access</button>
