@@ -23,7 +23,7 @@ function Interest() {
         </p>
       </div>
       <form name="remember-early" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="remember-early" />
         <p className="form--input">
           <label>Your Email </label>
           <input required type="email" name="email" />
