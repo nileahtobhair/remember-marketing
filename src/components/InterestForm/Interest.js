@@ -18,12 +18,12 @@ function Interest() {
             "Save and collect the dates most important to you and your loved ones. Setup date reminders so you’ll never miss a special day again."
           }
           {
-            "Remember remember is coming soon! Submit your email below to get notified when we go live."
+            " Remember remember is coming soon! Submit your email below to get notified when we go live."
           }
         </p>
       </div>
       <form name="remember-early" method="POST" data-netlify="true">
-        <input type="hidden" name="remember-early" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
         <p className="form--input">
           <label>Your Email </label>
           <input required type="email" name="email" />

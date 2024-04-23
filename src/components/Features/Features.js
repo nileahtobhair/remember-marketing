@@ -24,14 +24,14 @@ function Features() {
             <h4>Simple, straightforward UI</h4>
             <p>
               Avoid the clutter of traditional calendars, with a simple app to
-              allow you to see your dates clearly
+              allow you to see your dates clearly.
             </p>
           </div>
         </li>
         <li>
           <div className="single--feature">
             <h4>Get notified</h4>
-            <p>Setup email reminders ahead of your important dates</p>
+            <p>Setup email reminders ahead of your important dates.</p>
           </div>
         </li>
       </ul>
@@ -40,8 +40,7 @@ function Features() {
           <div className="single--feature">
             <h4>Share your dates</h4>
             <p>
-              Youngest sibling always forgets your dads birthday? Share it with
-              them.
+              Sibling always forgets your dads birthday? Share it with them.
             </p>
           </div>
         </li>
@@ -50,7 +49,7 @@ function Features() {
             <h4>Delete fb</h4>
             <p>
               Keeping fb around to remember all your friends' birthdays? Now you
-              can delete it (if you want, don't come for me boomers)
+              can delete it (if you want, don't come for me boomers).
             </p>
           </div>
         </li>
