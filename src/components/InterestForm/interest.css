@@ -25,6 +25,13 @@
   font-family: "Fanwood Text", serif;
 }
 
+.interest--success {
+  font-family: "Fraunces", serif;
+  color: #735bf2;
+  font-size: 22px;
+  margin: 40px 0;
+}
+
 .highlight {
   background: linear-gradient(
     to right,
